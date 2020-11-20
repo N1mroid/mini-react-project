@@ -5,10 +5,10 @@ import CreateTweet from "./components/CreateTweet";
 
 function App() {
   // State
-  const [name, setName] = useState("Dev BigD");
+  const name = useState("Dev BigD");
   const [textInput, setTextInput] = useState("");
   const [tweets, setTweets] = useState([]);
-  const message = "Hubo";
+  // const message = "Hubo";
 
   return (
     <div className="App">
